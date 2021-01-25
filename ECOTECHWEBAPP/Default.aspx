@@ -7,7 +7,14 @@
         <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
         <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
     </div>
-
+    <div>
+        <asp:Button ID="ButtonAdd" runat="server" OnClick="ButtonAdd_Click" Text="增" />
+        <asp:Button ID="ButtonDelete" runat="server" OnClick="ButtonDelete_Click" Text="删" />
+        <asp:Button ID="ButtonUpdate" runat="server" OnClick="ButtonUpdate_Click" Text="改" />
+        <p>
+            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+        </p>
+    </div>
     <div class="row">
         <div class="col-md-4">
             <h2>Getting started</h2>
